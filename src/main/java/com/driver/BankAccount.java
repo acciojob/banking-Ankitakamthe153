@@ -31,9 +31,6 @@ public class BankAccount {
         return account_number.reverse().toString();
     }
 
-        return null;
-    }
-
     public void deposit(double amount) {
         //add amount to balance
          this.balance += amount;
